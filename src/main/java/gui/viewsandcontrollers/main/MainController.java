@@ -1,10 +1,10 @@
-package clases;
+package gui.viewsandcontrollers.main;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class BasicFXMLController {
+public class MainController {
 
     @FXML
     private Label label;
@@ -15,6 +15,6 @@ public class BasicFXMLController {
 
     @FXML
     private void handleButtonAction(ActionEvent event) {
-        label.setText("Hello World!");
+        label.setText("Hola Mundo");
     }
 }
